@@ -1,0 +1,146 @@
+body{
+box-sizing: border-box;
+max-width: 100%;
+overflow-x: hidden; 
+scroll-behavior: smooth;
+padding: 0;
+margin: 0;
+
+}
+
+#body{
+	background: url("../img/background.jpg") no-repeat;
+	background-size: 100% calc(100vh - 0px);
+	background-attachment: fixed;
+}
+
+.h2-info{
+	text-shadow: rgb(233, 238, 240) 3px 0px 0px, rgb(233, 238, 240) 2.83487px 0.981584px 0px, rgb(233, 238, 240) 2.35766px 1.85511px 0px, rgb(233, 238, 240) 1.62091px 2.52441px 0px, rgb(233, 238, 240) 0.705713px 2.91581px 0px, rgb(233, 238, 240) -0.287171px 2.98622px 0px, rgb(233, 238, 240) -1.24844px 2.72789px 0px, rgb(233, 238, 240) -2.07227px 2.16926px 0px, rgb(233, 238, 240) -2.66798px 1.37182px 0px, rgb(233, 238, 240) -2.96998px 0.42336px 0px, rgb(233, 238, 240) -2.94502px -0.571704px 0px, rgb(233, 238, 240) -2.59586px -1.50383px 0px, rgb(233, 238, 240) -1.96093px -2.27041px 0px, rgb(233, 238, 240) -1.11013px -2.78704px 0px, rgb(233, 238, 240) -0.137119px -2.99686px 0px, rgb(233, 238, 240) 0.850987px -2.87677px 0px, rgb(233, 238, 240) 1.74541px -2.43999px 0px, rgb(233, 238, 240) 2.44769px -1.73459px 0px, rgb(233, 238, 240) 2.88051px -0.838247px 0px;
+}
+
+#main-page .h2-title{
+	font-family: helvetica;
+	text-shadow: rgb(241, 242, 242) 3px 0px 0px, rgb(241, 242, 242) 2.83487px 0.981584px 0px, rgb(241, 242, 242) 2.35766px 1.85511px 0px, rgb(241, 242, 242) 1.62091px 2.52441px 0px, rgb(241, 242, 242) 0.705713px 2.91581px 0px, rgb(241, 242, 242) -0.287171px 2.98622px 0px, rgb(241, 242, 242) -1.24844px 2.72789px 0px, rgb(241, 242, 242) -2.07227px 2.16926px 0px, rgb(241, 242, 242) -2.66798px 1.37182px 0px, rgb(241, 242, 242) -2.96998px 0.42336px 0px, rgb(241, 242, 242) -2.94502px -0.571704px 0px, rgb(241, 242, 242) -2.59586px -1.50383px 0px, rgb(241, 242, 242) -1.96093px -2.27041px 0px, rgb(241, 242, 242) -1.11013px -2.78704px 0px, rgb(241, 242, 242) -0.137119px -2.99686px 0px, rgb(241, 242, 242) 0.850987px -2.87677px 0px, rgb(241, 242, 242) 1.74541px -2.43999px 0px, rgb(241, 242, 242) 2.44769px -1.73459px 0px, rgb(241, 242, 242) 2.88051px -0.838247px 0px;
+}
+
+.h1-info{
+	text-shadow: rgb(6, 36, 48) 3px 0px 0px, rgb(6, 36, 48) 2.83487px 0.981584px 0px, rgb(6, 36, 48) 2.35766px 1.85511px 0px, rgb(6, 36, 48) 1.62091px 2.52441px 0px, rgb(6, 36, 48) 0.705713px 2.91581px 0px, rgb(6, 36, 48) -0.287171px 2.98622px 0px, rgb(6, 36, 48) -1.24844px 2.72789px 0px, rgb(6, 36, 48) -2.07227px 2.16926px 0px, rgb(6, 36, 48) -2.66798px 1.37182px 0px, rgb(6, 36, 48) -2.96998px 0.42336px 0px, rgb(6, 36, 48) -2.94502px -0.571704px 0px, rgb(6, 36, 48) -2.59586px -1.50383px 0px, rgb(6, 36, 48) -1.96093px -2.27041px 0px, rgb(6, 36, 48) -1.11013px -2.78704px 0px, rgb(6, 36, 48) -0.137119px -2.99686px 0px, rgb(6, 36, 48) 0.850987px -2.87677px 0px, rgb(6, 36, 48) 1.74541px -2.43999px 0px, rgb(6, 36, 48) 2.44769px -1.73459px 0px, rgb(6, 36, 48) 2.88051px -0.838247px 0px;
+}
+
+.info{
+background: rgba(229, 234, 231, 0.34);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.3px);
+border: 1px solid rgba(247, 238, 243, 0.8);
+}
+
+#glass{
+background: rgba(10, 26, 53, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.2px);
+border: 1px solid rgba(234, 232, 244, 0.19);
+box-shadow: 13px 18px 36px 18px rgba(245,235,235,0.75);
+}
+
+p{
+	text-align: justify;
+}
+
+nav{
+	z-index: 99 !important;
+}
+
+textarea{
+	resize: none;
+}
+
+.toggleIcon:hover{
+	cursor: pointer;
+}
+
+/*#table-view tbody img{
+	width: 100%;
+	height: 100%;
+}*/
+
+#swal-success{
+	border: 1px solid green;
+	background: white;
+	padding: .5rem;
+	color: black;
+	font-weight: bolder;
+	transition: background .5s ease-in-out;
+	text-decoration: none;
+}
+
+#swal-success:hover{
+	font-weight: bolder;
+	border: none;
+	background: green;
+	color: white;
+}
+
+.ui-datepicker{
+	z-index: 9999 !important;
+}
+
+.offcanvas{
+	width: 25% !important;
+}
+
+.others{
+	display: none;
+}
+
+#printFilterM365{
+	display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px){
+.offcanvas{
+	width: 100% !important;
+}
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 800px){
+.offcanvas{
+	width: 100% !important;
+}
+
+}
+
+@media print{
+	@page{
+		margin: 0;
+	}
+
+	/* Hide scrollbars for the print page */
+	html{
+		overflow: hidden ;
+	}
+
+	@page{
+		size: A4 landscape;
+		margin-right: 1rem;
+		margin-left: 1rem;
+		margin-top: 10mm;
+		margin-bottom: 5mm;
+		/*margin: 0;*/
+		border: initial;
+		border-radius: initial;
+		width: initial;
+		min-height: initial;
+		box-shadow: initial;
+		background: initial;
+		page-break-after: always;
+	}
+
+	.lastChild{
+		display: none !important;
+	}
+	#showM365Data table th:nth-child(7), #showM365Data table th:nth-child(6), #showM365Data table td:nth-child(7), #showM365Data table td:nth-child(6), #showM365Data table td:nth-child(2), #showM365Data table th:nth-child(2){
+		display: none !important;
+		
+	}
+}
